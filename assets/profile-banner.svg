@@ -1,0 +1,188 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Amaan Mulani animated developer banner</title>
+  <desc id="desc">Animated banner with Amaan Mulani name, developer focus, and recent public project highlights verified on March 29, 2026.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061018" />
+      <stop offset="0.45" stop-color="#0b1f2f" />
+      <stop offset="1" stop-color="#08141f" />
+    </linearGradient>
+
+    <radialGradient id="orbA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1220 190) rotate(90) scale(340 340)">
+      <stop stop-color="#38bdf8" stop-opacity="0.36" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1430 660) rotate(90) scale(260 260)">
+      <stop stop-color="#f59e0b" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#67e8f9" stop-opacity="0.16" />
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#67e8f9" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#67e8f9" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="blurLarge" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+
+    <filter id="blurSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#173149" stroke-width="1" opacity="0.48" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.45" />
+
+  <circle cx="1220" cy="190" r="320" fill="url(#orbA)" filter="url(#blurLarge)">
+    <animate attributeName="cx" values="1200;1250;1200" dur="16s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="190;220;190" dur="13s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="1430" cy="660" r="260" fill="url(#orbB)" filter="url(#blurLarge)">
+    <animate attributeName="cx" values="1410;1465;1410" dur="14s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="660;620;660" dur="18s" repeatCount="indefinite" />
+  </circle>
+
+  <rect x="-260" y="0" width="240" height="900" fill="url(#beam)" transform="rotate(8 -260 0)">
+    <animate attributeName="x" values="-260;1720" dur="10s" repeatCount="indefinite" />
+  </rect>
+
+  <path d="M0 708C206 650 334 650 507 690C690 733 862 731 1088 642C1221 590 1379 578 1600 639" stroke="url(#line)" stroke-width="2" opacity="0.9">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="
+      M0 708C206 650 334 650 507 690C690 733 862 731 1088 642C1221 590 1379 578 1600 639;
+      M0 696C197 640 337 644 516 676C709 712 868 726 1098 654C1221 615 1375 608 1600 659;
+      M0 708C206 650 334 650 507 690C690 733 862 731 1088 642C1221 590 1379 578 1600 639" />
+  </path>
+
+  <path d="M0 762C224 706 372 701 570 742C738 777 925 783 1143 716C1286 673 1432 664 1600 701" stroke="url(#line)" stroke-width="1.4" opacity="0.45">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite"
+      values="
+      M0 762C224 706 372 701 570 742C738 777 925 783 1143 716C1286 673 1432 664 1600 701;
+      M0 750C209 695 381 689 584 726C759 758 941 770 1163 732C1295 692 1446 685 1600 715;
+      M0 762C224 706 372 701 570 742C738 777 925 783 1143 716C1286 673 1432 664 1600 701" />
+  </path>
+
+  <g transform="translate(112 132)">
+    <text x="0" y="0" fill="#f8fafc" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="26" letter-spacing="4.8">
+      PUBLIC DEVELOPER PROFILE
+    </text>
+
+    <text x="0" y="112" fill="#ffffff" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="88" font-weight="700">
+      Amaan Mulani
+    </text>
+
+    <text x="0" y="194" fill="#dbeafe" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="38" font-weight="600">
+      Modern web apps, polished UI,
+    </text>
+
+    <text x="0" y="248" fill="#dbeafe" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="38" font-weight="600">
+      and desktop automation.
+    </text>
+
+    <text x="0" y="326" fill="#94a3b8" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="28">
+      GitHub: amaanmulani9-ai
+    </text>
+
+    <text x="0" y="370" fill="#94a3b8" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="28">
+      Live work for recruiters, collaborators, and companies.
+    </text>
+
+    <g transform="translate(0 454)">
+      <g>
+        <rect x="0" y="0" width="250" height="58" rx="29" fill="#0d2233" stroke="#25445f" />
+        <text x="32" y="37" fill="#67e8f9" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="24" font-weight="600">
+          React + Next.js
+        </text>
+      </g>
+
+      <g transform="translate(270 0)">
+        <rect x="0" y="0" width="264" height="58" rx="29" fill="#0d2233" stroke="#25445f" />
+        <text x="32" y="37" fill="#fbbf24" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="24" font-weight="600">
+          TypeScript + Python
+        </text>
+      </g>
+
+      <g transform="translate(0 82)">
+        <rect x="0" y="0" width="280" height="58" rx="29" fill="#0d2233" stroke="#25445f" />
+        <text x="32" y="37" fill="#5eead4" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="24" font-weight="600">
+          UI + Automation Projects
+        </text>
+      </g>
+
+      <g transform="translate(300 82)">
+        <rect x="0" y="0" width="234" height="58" rx="29" fill="#0d2233" stroke="#25445f" />
+        <text x="32" y="37" fill="#e2e8f0" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="24" font-weight="600">
+          Live on Vercel
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(972 136)">
+    <circle cx="260" cy="218" r="188" stroke="#27506e" stroke-width="2" opacity="0.75" />
+    <circle cx="260" cy="218" r="140" stroke="#1f415a" stroke-width="2" opacity="0.65" />
+    <circle cx="260" cy="218" r="94" stroke="#15344a" stroke-width="2" opacity="0.6" />
+
+    <circle cx="260" cy="218" r="12" fill="#67e8f9" filter="url(#blurSoft)">
+      <animate attributeName="r" values="10;16;10" dur="3.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 260 218" to="360 260 218" dur="18s" repeatCount="indefinite" />
+      <circle cx="260" cy="30" r="10" fill="#f59e0b" />
+      <circle cx="400" cy="218" r="9" fill="#5eead4" />
+      <circle cx="260" cy="358" r="8" fill="#e2e8f0" />
+      <circle cx="120" cy="218" r="10" fill="#38bdf8" />
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360 260 218" to="0 260 218" dur="12s" repeatCount="indefinite" />
+      <circle cx="260" cy="78" r="7" fill="#f8fafc" opacity="0.95" />
+      <circle cx="354" cy="312" r="6" fill="#fbbf24" opacity="0.92" />
+      <circle cx="166" cy="124" r="6" fill="#67e8f9" opacity="0.92" />
+    </g>
+
+    <rect x="28" y="456" width="552" height="244" rx="28" fill="#081622" stroke="#20415a" />
+
+    <text x="72" y="514" fill="#67e8f9" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="25" font-weight="700">
+      Latest public work
+    </text>
+
+    <text x="72" y="568" fill="#ffffff" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="28" font-weight="600">
+      JARVIS-main
+    </text>
+    <text x="300" y="568" fill="#94a3b8" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="22">
+      March 29, 2026
+    </text>
+
+    <text x="72" y="616" fill="#ffffff" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="28" font-weight="600">
+      IPL-RCB-SHADOWFOX
+    </text>
+    <text x="364" y="616" fill="#94a3b8" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="22">
+      March 27, 2026
+    </text>
+
+    <text x="72" y="664" fill="#ffffff" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="28" font-weight="600">
+      amaan-portfolio-v2
+    </text>
+    <text x="350" y="664" fill="#94a3b8" font-family="Segoe UI, Trebuchet MS, Verdana, sans-serif" font-size="22">
+      March 27, 2026
+    </text>
+  </g>
+</svg>
