@@ -116,5 +116,3 @@ A security-focused password manager concept centered on authentication, encrypti
 - Phone: [+91 93248 32187](tel:+919324832187)
 
 ---
-
-If you want this README to become your GitHub profile header README, create or rename a public repository to `amaanmulani9-ai` and place this `README.md` there.
