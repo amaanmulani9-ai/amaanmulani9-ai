@@ -48,6 +48,16 @@ amaanmulani9-ai
 
 ---
 
+## 🆕 Latest Features & Repositories
+
+- [`amaan-portfolio-v2`](https://github.com/amaanmulani9-ai/amaan-portfolio-v2): polished portfolio UI with GSAP + Framer Motion animations and responsive project showcase
+- [`amaan-medical-store`](https://github.com/amaanmulani9-ai/amaan-medical-store): modern Next.js storefront with cart, search, dynamic data flow, and Supabase integration
+- [`JARVIS-main`](https://github.com/amaanmulani9-ai/JARVIS-main): voice-powered desktop automation assistant for daily Windows workflows
+- [`IPL-RCB-SHADOWFOX`](https://github.com/amaanmulani9-ai/IPL-RCB-SHADOWFOX): fast React single-page fan platform with updated visual sections
+- [`password-manager-vault`](https://github.com/amaanmulani9-ai/password-manager-vault): secure-auth focused API project with JWT and Fernet-based encryption concepts
+
+---
+
 ## 🔥 Featured Projects
 
 ### [Amaan Portfolio V2](https://github.com/amaanmulani9-ai/amaan-portfolio-v2)
@@ -136,9 +146,10 @@ amaanmulani9-ai
 
 ## 🕑 Recent Activity _(manual snapshot, update as needed)_
 
+- **July 8, 2026**: Updated this profile repository [`amaanmulani9-ai`](https://github.com/amaanmulani9-ai/amaanmulani9-ai) with the latest feature and repository highlights.
 - **March 29, 2026**: Updated [`JARVIS-main`](https://github.com/amaanmulani9-ai/JARVIS-main), a Windows desktop assistant built with Python, PyQt, speech input, and automation.
-- **March 27, 2026**: Refreshed [`IPL-RCB-SHADOWFOX`](https://github.com/amaanmulani9-ai/IPL-RCB-SHADOWFOX) and [`amaan-portfolio-v2`](https://github.com/amaanmulani9-ai/amaan-portfolio-v2)
-- **March 26, 2026:** Pushed [`amaan-medical-store`](https://github.com/amaanmulani9-ai/amaan-medical-store), a Next.js 15 storefront project
+- **March 27, 2026**: Refreshed [`IPL-RCB-SHADOWFOX`](https://github.com/amaanmulani9-ai/IPL-RCB-SHADOWFOX) and [`amaan-portfolio-v2`](https://github.com/amaanmulani9-ai/amaan-portfolio-v2).
+- **March 26, 2026**: Pushed [`amaan-medical-store`](https://github.com/amaanmulani9-ai/amaan-medical-store), a Next.js 15 storefront project.
 
 ---
 
