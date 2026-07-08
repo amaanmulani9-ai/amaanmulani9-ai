@@ -12,7 +12,7 @@ amaanmulani9-ai
 
 <p align="center">
   <b>Frontend & full-stack developer | Mumbai, India</b><br>
-  Building polished web experiences and powerful desktop automation.<br>
+  Building polished web apps, desktop automation tools, and modern user experiences.<br>
   <b>Open to internships & entry-level roles · Let's connect!</b>
 </p>
 
@@ -32,19 +32,14 @@ amaanmulani9-ai
   <a href="mailto:amaanmulani9@gmail.com">
     <img alt="Contact by Email" src="https://img.shields.io/badge/Contact-Email-14b8a6?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <!--
-  <a href="LINK_TO_YOUR_RESUME.pdf">
-    <img alt="Resume" src="https://img.shields.io/badge/Resume-PDF-eab308?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
-  </a>
-  -->
 </p>
 
 ---
 
-> 🚀 **Full-stack developer building interactive apps, desktop automation tools, & modern websites.**  
+> 🚀 **I build interactive apps, desktop automation tools, and polished websites with modern stacks.**  
 > ✅ **React, Next.js, TypeScript, Python • 10+ public projects**  
 >  
-> _Welcome! You’ll find my latest work below. Feel free to reach out for open roles, collaborations, or a chat!_
+> _Welcome! You’ll find my latest work below. Feel free to reach out for open roles, collaborations, or a chat._
 
 ---
 
@@ -53,7 +48,7 @@ amaanmulani9-ai
 ### [Amaan Portfolio V2](https://github.com/amaanmulani9-ai/amaan-portfolio-v2)
 <p align="center"><img src="./assets/amaan-portfolio-demo.gif" alt="Animated preview of Amaan Portfolio v2 website" width="60%" /></p>
 
-- **Personal portfolio** with interactive motion, modern UI, and project highlights
+- Personal portfolio with interactive motion, modern UI, and highlighted projects
 - **Stack:** React 18, Vite 5, Tailwind CSS, GSAP, Framer Motion
 - [Live Site](https://amaan-portfolio-v2.vercel.app) | [Source Code](https://github.com/amaanmulani9-ai/amaan-portfolio-v2)
 - ✨ *Focus: Animation, mobile responsiveness, professional presentation*
@@ -63,27 +58,27 @@ amaanmulani9-ai
 ### [AMAAN Medical Store](https://github.com/amaanmulani9-ai/amaan-medical-store)
 <p align="center"><img src="./assets/amaan-medical-store-screenshot.png" alt="Screenshot of AMAAN Medical Store web app storefront" width="60%" /></p>
 
-- E-commerce PWA: modern storefront with cart, search, dynamic data
+- E-commerce PWA with cart, search, and dynamic product flows
 - **Stack:** Next.js 15, React 19, TypeScript, Tailwind, Supabase, MongoDB
 - [Live Site](https://amaan-medical-store.vercel.app) | [Source](https://github.com/amaanmulani9-ai/amaan-medical-store)
-- 🏆 *Built reusable product and order components, Supabase integration*
+- 🏆 *Built reusable product and order components with Supabase integration*
 
 ---
 
 ### [JARVIS Desktop Assistant](https://github.com/amaanmulani9-ai/JARVIS-main)
 <p align="center"><img src="./assets/jarvis-demo.gif" alt="GIF: JARVIS desktop assistant in action" width="60%" /></p>
 
-- Voice-activated Windows assistant: app launch, media, automation
+- Voice-activated Windows assistant for app launch, media control, and automation
 - **Stack:** Python, PyQt, Speech Recognition, Desktop Automation
 - [Source](https://github.com/amaanmulani9-ai/JARVIS-main) | [Demo Video](https://go.screenmal.com/watch/cOni25n3P82)
-- 🥇 *Automates common workflows, robust PyQt UI*
+- 🥇 *Automates common workflows with a robust PyQt UI*
 
 ---
 
 ### [IPL-RCB-SHADOWFOX](https://github.com/amaanmulani9-ai/IPL-RCB-SHADOWFOX)
 <p align="center"><img src="./assets/ipl-rcb-screenshot.png" alt="Screenshot of IPL-RCB-SHADOWFOX fan site" width="60%" /></p>
 
-- Single-page fan site (RCB | IPL cricket)
+- Single-page fan site for RCB | IPL cricket
 - **Stack:** React 19, Vite 8, JavaScript
 - [Live](https://ipl-rcb-shadowfox.vercel.app) | [Source](https://github.com/amaanmulani9-ai/IPL-RCB-SHADOWFOX)
 
@@ -91,7 +86,7 @@ amaanmulani9-ai
 
 ### [Password Manager Vault](https://github.com/amaanmulani9-ai/password-manager-vault)
 
-- Concept password manager with focus on secure auth & encryption
+- Concept password manager focused on secure auth and encryption
 - **Stack:** FastAPI, Python, JWT, Fernet, SQLAlchemy, Pydantic v2
 - [Source](https://github.com/amaanmulani9-ai/password-manager-vault)
 
@@ -99,10 +94,10 @@ amaanmulani9-ai
 
 ## 🏆 Key Achievements
 
-- **Built and deployed** 10+ public projects (web, desktop, API) with modern stacks
+- **Built and deployed** 10+ public projects across web, desktop, and API development
 - **Automation:** Desktop/Python projects save 100+ manual hours
 - **Collaborative:** Fast adopter of TypeScript, React, and Pythonic best practices
-- **Open source:** Code, documentation, and UI design always public by default
+- **Open source:** Code, documentation, and UI design are public by default
 
 ---
 
@@ -134,26 +129,6 @@ amaanmulani9-ai
 
 ---
 
-## 🕑 Recent Activity _(manual snapshot, update as needed)_
-
-- **March 29, 2026**: Updated [`JARVIS-main`](https://github.com/amaanmulani9-ai/JARVIS-main), a Windows desktop assistant built with Python, PyQt, speech input, and automation.
-- **March 27, 2026**: Refreshed [`IPL-RCB-SHADOWFOX`](https://github.com/amaanmulani9-ai/IPL-RCB-SHADOWFOX) and [`amaan-portfolio-v2`](https://github.com/amaanmulani9-ai/amaan-portfolio-v2)
-- **March 26, 2026:** Pushed [`amaan-medical-store`](https://github.com/amaanmulani9-ai/amaan-medical-store), a Next.js 15 storefront project
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img alt="Amaan's GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=amaanmulani9-ai&theme=dark" />
-  <img alt="Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanmulani9-ai&layout=compact&theme=dark&langs_count=8" />
-  <!--
-  <img alt="Amaan's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=amaanmulani9-ai&show_icons=true&theme=dark" />
-  -->
-</p>
-
----
-
 ## 📬 Contact
 
 - 📍 Location: Mumbai, India
@@ -162,13 +137,9 @@ amaanmulani9-ai
 - 📨 [Email](mailto:amaanmulani9@gmail.com)
 - 🧑‍💻 [GitHub](https://github.com/amaanmulani9-ai)
 - 📱 [Instagram](https://www.instagram.com/amaan.mulani_?igsh=b3E2bWdyNjZldndn)
-- ☎️ Phone: [+91 93248 32187](tel:+919324832187)
-<!--
-- 📄 [Resume](LINK_TO_YOUR_RESUME.pdf)
--->
 
 ---
 
 <p align="center">
- <b>Thanks for visiting! Let's build something awesome together.</b> 😊
+  <b>Thanks for visiting! Let's build something awesome together.</b> 😊
 </p>
