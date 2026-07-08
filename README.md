@@ -34,12 +34,25 @@ amaanmulani9-ai
   </a>
 </p>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:0ea5e9&height=140&section=header&text=Building%20Modern%20Experiences&fontSize=28&fontColor=ffffff&animation=fadeIn" alt="Animated header" />
+</div>
+
 ---
 
 > 🚀 **I build interactive apps, desktop automation tools, and polished websites with modern stacks.**  
 > ✅ **React, Next.js, TypeScript, Python • 10+ public projects**  
 >  
 > _Welcome! You’ll find my latest work below. Feel free to reach out for open roles, collaborations, or a chat._
+
+---
+
+## ✨ What I Bring
+
+- Clean, responsive interfaces with a strong focus on user experience
+- Full-stack development across web, desktop, and API projects
+- Automation-first mindset for tools that save time and reduce manual work
+- Public-by-default workflow: code, docs, and UI are open and easy to review
 
 ---
 
@@ -129,6 +142,15 @@ amaanmulani9-ai
 
 ---
 
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amaanmulani9-ai&theme=dark" alt="Amaan's GitHub streak stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanmulani9-ai&layout=compact&theme=dark&langs_count=8" alt="Amaan's top languages" />
+</p>
+
+---
+
 ## 📬 Contact
 
 - 📍 Location: Mumbai, India
@@ -139,6 +161,10 @@ amaanmulani9-ai
 - 📱 [Instagram](https://www.instagram.com/amaan.mulani_?igsh=b3E2bWdyNjZldndn)
 
 ---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:0f172a&height=120&section=footer" alt="Animated footer" />
+</div>
 
 <p align="center">
   <b>Thanks for visiting! Let's build something awesome together.</b> 😊
