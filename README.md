@@ -1,7 +1,7 @@
 <!--
 If you want this to appear on your GitHub profile homepage,
 place this README in a public repository named exactly:
-amaanmulani9-ai
+aamaanmulani9-ai
 -->
 
 <p align="center">
@@ -53,6 +53,14 @@ amaanmulani9-ai
 - Full-stack development across web, desktop, and API projects
 - Automation-first mindset for tools that save time and reduce manual work
 - Public-by-default workflow: code, docs, and UI are open and easy to review
+
+---
+
+## 🧭 Currently Building
+
+- Refining portfolio experiences with motion, performance, and accessibility in mind
+- Shipping more AI-assisted and automation-focused desktop workflows
+- Expanding backend projects with modern auth, data, and deployment patterns
 
 ---
 
