@@ -182,34 +182,15 @@ print("Wrote contrib-heatmap.svg")
 # ==========================================
 # 3. PREPARE PHOTO
 # ==========================================
-print("=== 3. Preparing source-prepped.png ===")
-img = cv2.imread("source-photo.png")
-h, w = img.shape[:2]
-mask = np.zeros(img.shape[:2], np.uint8)
-bgdModel = np.zeros((1, 65), np.float64)
-fgdModel = np.zeros((1, 65), np.float64)
-rect = (2, 2, w - 4, h - 4)
-cv2.grabCut(img, mask, rect, bgdModel, fgdModel, 6, cv2.GC_INIT_WITH_RECT)
-mask2 = np.where((mask == 2) | (mask == 0), 0, 1).astype("uint8")
-composite = np.where(mask2[:, :, np.newaxis] == 1, img, np.full_like(img, 255))
-gray = cv2.cvtColor(composite, cv2.COLOR_BGR2GRAY)
-
-smooth = gray
-for _ in range(2):
-    smooth = cv2.bilateralFilter(smooth, 7, 30, 7)
-
-clahe = cv2.createCLAHE(clipLimit=2.2, tileGridSize=(8, 8))
-contrast = clahe.apply(smooth)
-
-fine = cv2.GaussianBlur(smooth, (0, 0), 1.0).astype(np.float32)
-coarse = cv2.GaussianBlur(smooth, (0, 0), 4.0).astype(np.float32)
-lines = np.clip((coarse - fine) / 30.0, 0, 1)
-
-tone = contrast.astype(np.float32) / 255.0
-out = np.clip(tone - 0.45 * lines, 0, 1) * 255.0
-out_final = np.where(mask2 == 1, out, 255.0).astype(np.uint8)
-Image.fromarray(out_final, mode="L").save("source-prepped.png")
-print("Wrote source-prepped.png")
+print("=== 3. Checking source-prepped.png ===")
+if not os.path.exists("source-prepped.png"):
+    img = cv2.imread("source-photo.png")
+    if img is not None:
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        Image.fromarray(gray, mode="L").save("source-prepped.png")
+        print("Generated initial source-prepped.png")
+else:
+    print("Using master high-quality source-prepped.png")
 
 # ==========================================
 # 4. GENERATE ASCII SVG

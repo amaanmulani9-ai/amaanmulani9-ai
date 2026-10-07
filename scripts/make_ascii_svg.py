@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Convert a prepped portrait photo into a CLEAN, monochrome ASCII-art SVG that
-types itself in like a terminal with an animated wipe cursor.
+Convert prepped portrait photo into a clean, monochrome ASCII-art SVG
+with high-detail character mapping and animated typewriter cursor.
 
-Output: amaan-ascii.svg
+Output: amaan-ascii.svg (840 x 880)
 """
 from PIL import Image, ImageEnhance, ImageFilter
 import html
@@ -21,10 +21,9 @@ CELL_H = CELL_W * 15 / 8
 ROWS = round(COLS * 8 / 15)
 RAMP = " .`:-=+*cs#%@"
 
-CONTRAST = 1.10
+CONTRAST = 1.15
 BRIGHTNESS = 1.02
-GAMMA = 1.15
-SHARPEN = False
+GAMMA = 1.12
 WHITE_FLOOR = 0.82
 
 PAD = 20
@@ -42,12 +41,10 @@ TITLE_TEXT = "#7d8590"
 INK = "#c9d1d9"
 CURSOR = "#38bdf8"
 
-ROW_DUR = 5.8 / ROWS
+ROW_DUR = 5.6 / ROWS
 STAGGER = ROW_DUR
 
 im = Image.open(SRC).convert("L")
-if SHARPEN:
-    im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=140, threshold=2))
 im = ImageEnhance.Brightness(im).enhance(BRIGHTNESS)
 im = ImageEnhance.Contrast(im).enhance(CONTRAST)
 im = im.resize((COLS, ROWS), Image.LANCZOS)
@@ -59,14 +56,12 @@ rows_txt = []
 for y in range(ROWS):
     chars = []
     for x in range(COLS):
-        lum = px[x, y] / 255.0
-        lum = pow(lum, GAMMA)
+        lum = pow(px[x, y] / 255.0, GAMMA)
         if lum >= WHITE_FLOOR:
             chars.append(" ")
-            continue
-        idx = int((1.0 - lum) * (len(RAMP) - 1) + 0.5)
-        idx = max(0, min(len(RAMP) - 1, idx))
-        chars.append(RAMP[idx])
+        else:
+            idx = max(0, min(len(RAMP) - 1, int((1.0 - lum) * (len(RAMP) - 1) + 0.5)))
+            chars.append(RAMP[idx])
     rows_txt.append("".join(chars))
 
 art_top = TITLEBAR_H + PAD * 0.35
@@ -76,6 +71,15 @@ parts.append(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{CANVAS_W}" height="{CANVAS_H}" '
     f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="ui-monospace, SFMono-Regular, '
     f'Menlo, Consolas, monospace">'
+)
+parts.append(
+    '<style>'
+    'text { font-smooth: always; -webkit-font-smoothing: antialiased; }'
+    '.prompt-user { fill: #38bdf8; font-weight: 600; }'
+    '.prompt-cmd { fill: #34d399; font-weight: 600; }'
+    '.prompt-val { fill: #f8fafc; font-weight: 700; }'
+    '@media (prefers-reduced-motion: reduce) { clipPath rect { width: 100% !important; } }'
+    '</style>'
 )
 parts.append('<defs>'
              f'<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
@@ -112,20 +116,24 @@ for ry, line in enumerate(rows_txt):
     )
     parts.append(f'<g clip-path="url(#r{ry})">{text}</g>')
     parts.append(
-        f'<rect y="{row_y+1:.1f}" width="{CELL_W}" height="{CELL_H-2}" fill="{CURSOR}" opacity="0">'
+        f'<rect y="{row_y+1:.1f}" width="{CELL_W*1.5}" height="{CELL_H-2}" fill="{CURSOR}" opacity="0">'
         f'<animate attributeName="x" from="{PAD}" to="{PAD+ART_W}" begin="{delay:.3f}s" '
         f'dur="{ROW_DUR:.2f}s" fill="freeze"/>'
-        f'<set attributeName="opacity" to="0.85" begin="{delay:.3f}s"/>'
+        f'<set attributeName="opacity" to="0.9" begin="{delay:.3f}s"/>'
         f'<set attributeName="opacity" to="0" begin="{delay+ROW_DUR:.3f}s"/></rect>'
     )
 
 status_line_y = TITLEBAR_H + ART_H + PAD * 0.35
 status_y = status_line_y + 19
 parts.append(f'<line x1="0" y1="{status_line_y:.1f}" x2="{CANVAS_W}" y2="{status_line_y:.1f}" stroke="{FRAME}"/>')
-parts.append(f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
-             f'amaan@github:~$ whoami <tspan fill="{INK}">Amaan Mulani</tspan></text>')
-status_chars = len("amaan@github:~$ whoami Amaan Mulani ")
-parts.append(f'<rect x="{PAD + status_chars * 13 * 0.6:.1f}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
+parts.append(f'<text x="{PAD}" y="{status_y:.1f}" font-size="13">'
+             f'<tspan class="prompt-user">amaan@github</tspan><tspan fill="{TITLE_TEXT}">:~$ </tspan>'
+             f'<tspan class="prompt-cmd">whoami </tspan>'
+             f'<tspan class="prompt-val">Amaan Mulani</tspan></text>')
+prompt_full_text = "amaan@github:~$ whoami Amaan Mulani "
+status_chars = len(prompt_full_text)
+cursor_x = PAD + status_chars * 13 * 0.58
+parts.append(f'<rect x="{cursor_x:.1f}" y="{status_y-12:.1f}" width="8" height="15" rx="1" fill="{CURSOR}">'
              f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
              f'dur="1s" repeatCount="indefinite"/></rect>')
 
