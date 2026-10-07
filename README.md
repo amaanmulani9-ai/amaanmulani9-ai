@@ -1,7 +1,7 @@
 <!--
 If you want this to appear on your GitHub profile homepage,
 place this README in a public repository named exactly:
-aamaanmulani9-ai
+amaanmulani9-ai
 -->
 
 <div align="center">
@@ -17,16 +17,35 @@ aamaanmulani9-ai
 
 <table>
 <tr>
-<td width="50%" align="center">
-  <img src="https://github.com/amaanmulani9-ai.png?size=360" width="320" alt="Amaan Mulani profile avatar" />
+<td valign="top">
+  <img src="https://github.com/amaanmulani9-ai.png?size=420" width="420" alt="Amaan Mulani profile avatar" />
 </td>
-<td width="50%" align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amaanmulani9-ai&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Amaan GitHub stats" /><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amaanmulani9-ai&theme=github-dark-blue&hide_border=true" alt="Amaan contribution streak" /><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanmulani9-ai&layout=compact&theme=github_dark&hide_border=true" alt="Amaan top languages" />
+<td valign="top">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=amaanmulani9-ai&theme=github_dark" width="420" alt="Amaan GitHub summary stats" /><br>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amaanmulani9-ai&theme=github_dark&utcOffset=5.5" width="420" alt="Amaan productive time stats" />
 </td>
 </tr>
 </table>
+
+<br>
+<br>
+
+<h3><code>amaan@github ~ $ ./links.sh</code></h3>
+
+<p><b>Frontend Developer · Full-Stack Builder · Automation Enthusiast</b></p>
+
+<a href="https://amaan-portfolio-v2.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-amaan--portfolio--v2.vercel.app-0d1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Amaan portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/amaan-m-b51773312">
+  <img src="https://img.shields.io/badge/LinkedIn-amaan--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Amaan LinkedIn" />
+</a>
+<a href="https://www.instagram.com/amaan.mulani_?igsh=b3E2bWdyNjZldndn">
+  <img src="https://img.shields.io/badge/Instagram-amaan.mulani_-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Amaan Instagram" />
+</a>
+<a href="mailto:amaanmulani9@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-14b8a6?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Amaan by email" />
+</a>
 
 </div>
 
