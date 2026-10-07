@@ -180,7 +180,7 @@ aamaanmulani9-ai
 
 ---
 
-<!-- Added while preserving the original profile content above. Inspired by the terminal-style profile layout from AVIVASHISHTA29/AVIVASHISHTA29. -->
+<!-- Terminal-style animated section -->
 
 <div align="center">
 
@@ -193,15 +193,23 @@ aamaanmulani9-ai
 
 <h3><code>amaan@github ~ $ whoami</code></h3>
 
-<p><b>Frontend Developer · Full-Stack Builder · Automation Enthusiast</b></p>
+<table>
+  <tr>
+    <td>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=22D3EE&center=true&vCenter=true&width=460&lines=Frontend+Developer;Full-Stack+Builder;AI+%26+Automation+Enthusiast;Open+to+Internships+%26+Entry-Level+Roles" alt="Animated whoami typing output" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=amaanmulani9-ai&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=38bdf8&text_color=e2e8f0" alt="Amaan GitHub profile stats" />
+    </td>
+  </tr>
+</table>
 
-<p>
-  I enjoy turning ideas into polished, practical products — from responsive web experiences and e-commerce platforms to desktop assistants and secure APIs.
-</p>
-
+<br>
 <br>
 
 <h3><code>amaan@github ~ $ ./links.sh</code></h3>
+
+<p><b>Frontend Developer · Full-Stack Builder · AI Explorer</b></p>
 
 <a href="https://amaan-portfolio-v2.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-amaan--portfolio--v2.vercel.app-0d1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Amaan portfolio" />
@@ -212,28 +220,8 @@ aamaanmulani9-ai
 <a href="https://www.instagram.com/amaan.mulani_?igsh=b3E2bWdyNjZldndn">
   <img src="https://img.shields.io/badge/Instagram-amaan.mulani_-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Amaan Instagram" />
 </a>
-<a href="mailto:amaanmulani9@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-14b8a6?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Amaan by email" />
+<a href="https://github.com/amaanmulani9-ai">
+  <img src="https://img.shields.io/badge/GitHub-amaanmulani9--ai-111827?style=for-the-badge&logo=github&logoColor=white" alt="Amaan GitHub profile" />
 </a>
-
-<br>
-<br>
-
-<h3><code>amaan@github ~ $ cat current-focus.txt</code></h3>
-
-<table>
-<tr>
-<td>⚡ Motion-first interfaces</td>
-<td>🤖 AI and desktop automation</td>
-</tr>
-<tr>
-<td>🔐 Secure backend APIs</td>
-<td>♿ Accessible user experiences</td>
-</tr>
-</table>
-
-<br>
-
-<h3><code>amaan@github ~ $ echo "Let's build something awesome together."</code></h3>
 
 </div>
