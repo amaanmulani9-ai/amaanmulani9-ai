@@ -1,8 +1,55 @@
 <!--
 If you want this to appear on your GitHub profile homepage,
 place this README in a public repository named exactly:
-aamaanmulani9-ai
+amaanmulani9-ai
 -->
+
+<div align="center">
+
+<h3><code>amaan@github ~ $ ./contributions.sh</code></h3>
+
+<img src="https://ghchart.rshah.org/0ea5e9/amaanmulani9-ai" alt="Amaan contribution chart" />
+
+<br>
+<br>
+
+<h3><code>amaan@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top">
+  <img src="https://github.com/amaanmulani9-ai.png?size=420" width="420" alt="Amaan Mulani profile avatar" />
+</td>
+<td valign="top">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=amaanmulani9-ai&theme=github_dark" width="420" alt="Amaan GitHub summary stats" /><br>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amaanmulani9-ai&theme=github_dark&utcOffset=5.5" width="420" alt="Amaan productive time stats" />
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<h3><code>amaan@github ~ $ ./links.sh</code></h3>
+
+<p><b>Frontend Developer · Full-Stack Builder · Automation Enthusiast</b></p>
+
+<a href="https://amaan-portfolio-v2.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-amaan--portfolio--v2.vercel.app-0d1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Amaan portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/amaan-m-b51773312">
+  <img src="https://img.shields.io/badge/LinkedIn-amaan--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Amaan LinkedIn" />
+</a>
+<a href="https://www.instagram.com/amaan.mulani_?igsh=b3E2bWdyNjZldndn">
+  <img src="https://img.shields.io/badge/Instagram-amaan.mulani_-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Amaan Instagram" />
+</a>
+<a href="mailto:amaanmulani9@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-14b8a6?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Amaan by email" />
+</a>
+
+</div>
+
+---
 
 <p align="center">
   <img src="./assets/profile-banner.svg" alt="Amaan Mulani profile banner with abstract geometric lines" width="100%" />
@@ -177,63 +224,3 @@ aamaanmulani9-ai
 <p align="center">
   <b>Thanks for visiting! Let's build something awesome together.</b> 😊
 </p>
-
----
-
-<!-- Added while preserving the original profile content above. Inspired by the terminal-style profile layout from AVIVASHISHTA29/AVIVASHISHTA29. -->
-
-<div align="center">
-
-<h3><code>amaan@github ~ $ ./contributions.sh</code></h3>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=amaanmulani9-ai&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=ffffff&area=true&hide_border=true" width="860" alt="Amaan's GitHub contribution activity graph" />
-
-<br>
-<br>
-
-<h3><code>amaan@github ~ $ whoami</code></h3>
-
-<p><b>Frontend Developer · Full-Stack Builder · Automation Enthusiast</b></p>
-
-<p>
-  I enjoy turning ideas into polished, practical products — from responsive web experiences and e-commerce platforms to desktop assistants and secure APIs.
-</p>
-
-<br>
-
-<h3><code>amaan@github ~ $ ./links.sh</code></h3>
-
-<a href="https://amaan-portfolio-v2.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-amaan--portfolio--v2.vercel.app-0d1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Amaan portfolio" />
-</a>
-<a href="https://www.linkedin.com/in/amaan-m-b51773312">
-  <img src="https://img.shields.io/badge/LinkedIn-amaan--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Amaan LinkedIn" />
-</a>
-<a href="https://www.instagram.com/amaan.mulani_?igsh=b3E2bWdyNjZldndn">
-  <img src="https://img.shields.io/badge/Instagram-amaan.mulani_-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Amaan Instagram" />
-</a>
-<a href="mailto:amaanmulani9@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-14b8a6?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Amaan by email" />
-</a>
-
-<br>
-<br>
-
-<h3><code>amaan@github ~ $ cat current-focus.txt</code></h3>
-
-<table>
-<tr>
-<td>⚡ Motion-first interfaces</td>
-<td>🤖 AI and desktop automation</td>
-</tr>
-<tr>
-<td>🔐 Secure backend APIs</td>
-<td>♿ Accessible user experiences</td>
-</tr>
-</table>
-
-<br>
-
-<h3><code>amaan@github ~ $ echo "Let's build something awesome together."</code></h3>
-
-</div>
