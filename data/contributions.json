@@ -1,23 +1,23 @@
 {
   "username": "amaanmulani9-ai",
   "name": "Amaan Mulani",
-  "generated_at": "2026-11-01T13:35:13Z",
+  "generated_at": "2026-11-02T16:11:47Z",
   "range": {
     "start": "2025-11-02",
+    "end": "2026-11-02"
+  },
+  "total_contributions": 562,
+  "active_days": 85,
+  "avg_per_active_day": 6.6,
+  "current_streak": {
+    "length": 26,
+    "start": "2026-10-07",
     "end": "2026-11-01"
   },
-  "total_contributions": 561,
-  "active_days": 84,
-  "avg_per_active_day": 6.7,
-  "current_streak": {
-    "length": 25,
-    "start": "2026-10-07",
-    "end": "2026-10-31"
-  },
   "longest_streak": {
-    "length": 25,
+    "length": 26,
     "start": "2026-10-07",
-    "end": "2026-10-31"
+    "end": "2026-11-01"
   },
   "best_day": {
     "date": "2026-06-30",
@@ -74,7 +74,7 @@
     },
     {
       "month": "2026-11",
-      "total": 0
+      "total": 1
     }
   ],
   "days": [
@@ -1900,6 +1900,11 @@
     },
     {
       "date": "2026-11-01",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-02",
       "count": 0,
       "level": 0
     }
